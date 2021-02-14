@@ -97,7 +97,7 @@ class CloudMusic:
 
             retext = "登录成功\n\n".format(
                 nickname=self.nickname, level=self.getLevel()
-                ["level"]) + "距离升级还需听{beforeCount}首歌".format(
+                ["level"]) + "距离升级还需听一些歌".format(
                     beforeCount=self.getLevel()["nextPlayCount"] -
                     self.getLevel()["nowPlayCount"])
             return retext
